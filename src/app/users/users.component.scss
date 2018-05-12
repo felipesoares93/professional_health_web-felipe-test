@@ -1,0 +1,16 @@
+:host {
+    
+}
+
+.users-container {
+    padding: 15px;
+}
+
+.mat-table {
+    overflow: auto;
+    max-height: 75vh;
+}
+
+.mat-header-cell.mat-sort-header-sorted {
+    color: black;
+}

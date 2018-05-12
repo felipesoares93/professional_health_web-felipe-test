@@ -1,0 +1,48 @@
+$background-color: #2d323e;
+$color: rgb(226, 226, 226);
+
+.nav-wrap {
+    background-color: $background-color;
+    width: 100%;
+    height: 100vh;
+
+    .navbar {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+ul.nav {
+    margin-top: 40px;
+    width: 100%;
+    list-style: none;
+
+    li {
+        list-style: none;
+        background-color: $background-color;
+
+        .fa {
+            color: $color;
+            width: 20px;
+            text-align: center;
+        }
+
+        a {
+            padding: 10px;
+            padding-left: 25px;
+            text-decoration: none !important;
+            color: $color;
+            width: 100%;
+            display: inline-block;
+
+            &:hover {
+                color: lighten($color: $color, $amount: 5);
+            }
+        }
+
+        &:hover,
+        &.active {
+            background-color: lighten($color: $background-color, $amount: 5);
+        }
+    }
+}

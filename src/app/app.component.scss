@@ -1,0 +1,21 @@
+.app-toolbar {
+    height: 64px;
+}
+
+.content-wrapper {
+    width: 100%;
+    height: calc(100vh - 64px);
+    display: flex;
+    flex-direction: row;
+
+    .sidebar {
+        flex: 1;
+        min-width: 200px;
+        max-width: 300px;
+    }
+
+    .main-content {
+        flex: 1;
+        padding: 15px;
+    }
+}

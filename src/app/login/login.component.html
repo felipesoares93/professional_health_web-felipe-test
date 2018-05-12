@@ -1,0 +1,23 @@
+<div class="wrapper">
+  <mat-card class="login-card">
+    <mat-card-header>
+      <mat-card-title class="title">Please log in</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <form class="login-form">
+        <mat-form-field class="full-width">
+          <input matInput placeholder="Username" [(ngModel)]="username" name="username">
+        </mat-form-field>
+
+        <mat-form-field class="full-width">
+          <input matInput type="password" placeholder="Password" [(ngModel)]="password" name="password">
+        </mat-form-field>
+      </form>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="primary" (click)="onLoginClick()">Submit</button>
+      <br>
+      <button mat-button>Forgot password?</button>
+    </mat-card-actions>
+  </mat-card>
+</div>

@@ -1,0 +1,18 @@
+.wrapper {
+    padding-top: 250px;
+    background-color: #515661;
+    height: 100vh;
+    width: 100%;
+
+    .login-card {
+        text-align: center;
+        margin: 0 auto;
+        width: 400px;
+
+        .title {
+            font-weight: bold;
+            font-size: 16px;
+            text-align: center;
+        }
+    }
+}

@@ -9,7 +9,6 @@ node {
     stage('check tools') {
         sh "node -v"
         sh "npm -v"
-        sh "ng -v"
     }
 
     stage('npm install') {

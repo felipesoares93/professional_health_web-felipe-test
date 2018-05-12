@@ -13,7 +13,7 @@ node {
     }
 
     stage('npm install') {
-        sh "sudo npm install"
+        sh "npm install"
     }
 
     stage('build') {
